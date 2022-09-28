@@ -1,5 +1,5 @@
 body {
-    background-color: slategray;
+    background-color: #F2E8CF;
     font-family: Cambria;
 }
 
@@ -8,23 +8,51 @@ p {
 }
 
 #banner {
-    background-color: darkslateblue;
+    background-color: #287271;
+    font-family: Helvetica;
     width: 100%;
 }
 
+#banner:visited {
+    color: #111111;
+}
+
 #landing {
-    background-color: cadetblue;
+    background-color: #E9C46A;
     width: 75%;
     margin: auto;
 }
 
 .question {
-    background-color: aquamarine;
+    background-color: #2A9D8F;
+    font-family: Helvetica;
     font-weight: bold;
     padding: 1em;
 }
 
 .answer {
-    background-color: aqua;
+    background-color: #8AB17D;
     padding: 2em;
+}
+
+.date {
+    font-family: Consolas;
+    font-style: italic;
+    color: #111;
+}
+
+.blog_title {
+    background-color: #F4A261;
+    font-family: Helvetica;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.blog_body {
+    background-color:  #E9C46A;
+    padding: 1em;
+}
+
+.secret {
+    font-size: small;
 }
