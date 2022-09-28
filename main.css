@@ -1,0 +1,30 @@
+body {
+    background-color: slategray;
+    font-family: Cambria;
+}
+
+p {
+    padding: 1em;
+}
+
+#banner {
+    background-color: darkslateblue;
+    width: 100%;
+}
+
+#landing {
+    background-color: cadetblue;
+    width: 75%;
+    margin: auto;
+}
+
+.question {
+    background-color: aquamarine;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.answer {
+    background-color: aqua;
+    padding: 2em;
+}
