@@ -1,0 +1,25 @@
+.mostRecent {
+    color: rgb(170, 241, 241);
+
+    background-color: rgba(240, 79, 255, 0.753);
+}
+
+#chatLog {
+    position: absolute;
+
+    width: 400px;
+
+    text-align: left;
+
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(229, 253, 253);
+
+    background-color: rgba(240, 79, 255, 0.315);
+}
+
+.username {
+    color: rgb(255, 161, 235);
+
+    vertical-align: text-top;
+}
