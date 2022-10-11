@@ -1,6 +1,7 @@
 body {
     background-color: #F2E8CF;
     font-family: Cambria;
+    margin: 0px;
 }
 
 p {
@@ -9,22 +10,41 @@ p {
 
 #banner {
     background-color: #287271;
+    border-bottom: 2px solid #222;
+    font-weight: lighter;
     font-family: Helvetica;
+
+    padding: 20px;
     width: 100%;
 }
 
-#banner:visited {
+#banner #logo #title {
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+#banner a:any-link  {
     color: #111111;
+    text-decoration-line: none;
+}
+#banner a:hover  {
+    color: #111111;
+    text-decoration-line: none;
+    font-style: italic;
 }
 
 #landing {
     background-color: #E9C46A;
+    border-top: 1px solid #E9C46A;
+    border-left: 2px solid #222;
+    border-right: 2px solid #222;
     width: 75%;
-    margin: auto;
+    margin: 0px auto;
 }
 
 .question {
     background-color: #2A9D8F;
+    border-top: 1px solid #222;
     font-family: Helvetica;
     font-weight: bold;
     padding: 1em;
@@ -32,6 +52,7 @@ p {
 
 .answer {
     background-color: #8AB17D;
+    border-bottom: 1px solid #222;
     padding: 2em;
 }
 
