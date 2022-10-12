@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .mostRecent {
     color: rgb(170, 241, 241);
 
