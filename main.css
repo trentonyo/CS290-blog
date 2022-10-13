@@ -77,3 +77,10 @@ p {
 .secret {
     font-size: small;
 }
+.secret:hover {
+    font-style: italic;
+}
+
+/*
+Absolute is based on the lowest ancestor with a position attribute
+ */
