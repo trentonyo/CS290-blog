@@ -80,7 +80,26 @@ p {
 .secret:hover {
     font-style: italic;
 }
+a::after {
+    content: "^";
+    border: #2A9D8F solid 2px;
+}
 
 /*
 Absolute is based on the lowest ancestor with a position attribute
+
+Pseudo element allows us to select only a piece of an element
+::<keyword> (eg. before, after)
  */
+
+/*
+Responsive CSS notes
+
+
+ */
+
+@media(max-width: 640px) {
+    body {
+        background-color: #da55cb;
+    }
+}
