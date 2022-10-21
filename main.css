@@ -95,7 +95,10 @@ Pseudo element allows us to select only a piece of an element
 /*
 Responsive CSS notes
 
+Nest rules within @media call
 
+< 640px small
+>
  */
 
 @media(max-width: 640px) {
