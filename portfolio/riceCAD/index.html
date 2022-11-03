@@ -179,6 +179,7 @@ and open the template in the editor.
                     <button onclick="renameProject()">rename</button>
                     <br>
                     <textarea id="editor_text" wrap="off" cols="32" rows="32" onchange="loadFromTextArea()">1</textarea><br>
+                    <!--textarea id="editor_text" wrap="off" cols="32" rows="32">1</textarea><br-->
                     <button onclick="downloadChanges()">Download Changes</button>
                 </td>
             </tr>
@@ -192,11 +193,11 @@ and open the template in the editor.
         
         <script>
             const fileSelector = document.getElementById('file-selector');
+            const content = document.getElementById('editor_text');
             fileSelector.addEventListener('change', (event) => 
             {
                 const fileList = event.target.files;
-                
-                const content = document.getElementById('editor_text');
+
                 const [file] = fileList;
                 const reader = new FileReader();
 
@@ -1119,6 +1120,11 @@ and open the template in the editor.
                     }
                 });
             }
+
+            content.addEventListener("input", function (event)
+            {
+                loadFromTextArea()
+            })
 
             /* Used playcanvas example update function
             let time = 0;
